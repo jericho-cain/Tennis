@@ -43,26 +43,16 @@ and in the Critic:
 
 ### Results
 
-I.  Initial Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=128 with LR_ACTOR and LR_CRITIC both set to 2e-4.  Did not achieve an average score of 0.50:
+I.  Initial Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=128 with LR_ACTOR and LR_CRITIC both set to 2e-4.  Included batch normalization.  Did not achieve an average score of 0.50:
 
 ![alt text](image_bad.png "Result I")
 
-II.  Initial Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=128.  Did not acheive an average score of 30:
+II.  Second Model, fc1_units = 256, fc2_units = 256, fcs1_units=256, fc2_units=256 with Final Hyperparameters, environment solved.  
 
-        Episode 100	Average Score: 2.67
-        Episode 200	Average Score: 15.42
-        Episode 300	Average Score: 22.28
-        Episode 346	Average Score: 18.42
+      
+![alt text](image.png "Result II")
 
-III.  Second Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=128, with Batch Normalization.  Solved:
-        
-        Episode 100	Average Score: 2.74
-        Episode 200	Average Score: 23.88
-        Episode 231	Average Score: 30.19Environment Solved!
-        
-![alt text](fourth_attempt.png "Result I")
-
-Batch Normalization was the key change here that got the network to converge on a solution to the environment.
+Removing batch normalization was the key change here that got the network to converge on a solution to the environment.
         
 ### Future Work
 
