@@ -4,7 +4,7 @@
 
 The algorithim comes from this [paper](https://arxiv.org/pdf/1509.02971.pdf) and is described via pseudo code in the image below:
 
-![alt text](image_alg.png "DDPG Algorithim")
+![alt text](ddpg.png "DDPG Algorithim")
 
 ### Model Archetecture
 
@@ -56,4 +56,4 @@ Removing batch normalization was the key change here that got the network to con
         
 ### Future Work
 
-Test different Agents like PPO, A3C or D4PG with the second Version of the Reacher environment.
+Try MADDPG as described [here](https://arxiv.org/abs/1706.02275) and implementing PPO, TRPO or D4PG
