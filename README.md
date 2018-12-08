@@ -26,6 +26,7 @@ Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/T
 Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip) \
 Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip) \
 Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip) \
+
 Then, place the file in the p3_collab-compet/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
 
 (For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
@@ -34,4 +35,4 @@ Then, place the file in the p3_collab-compet/ folder in the DRLND GitHub reposit
 
 ## Solution Implementation
 
-The file Continuous_Control.ipynb is a python notebook that contains the solution.  Running it will create the environment.  The Deep Deterministic Policy Gradient (DDPG) method and experience replay are used.   The neural network archetecture is implemented in model.py and the agent in ddpg_agent.py.
+The file Tennis.ipynb is a python notebook that contains the solution.  Running it will create the environment.  The Deep Deterministic Policy Gradient (DDPG) method and experience replay are used.   The neural network archetecture is implemented in model.py and the agent in ddpg_agent.py.
