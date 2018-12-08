@@ -43,9 +43,9 @@ and in the Critic:
 
 ### Results
 
-I.  Initial Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=128.  Did not achieve an average score of 0.50:
+I.  Initial Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=128 with LR_ACTOR and LR_CRITIC both set to 2e-4.  Did not achieve an average score of 0.50:
 
-![alt text](first_attempt.png "Result I")
+![alt text](image_bad.png "Result I")
 
 II.  Initial Model, fc1_units = 128, fc2_units = 128, fcs1_units=128, fc2_units=128.  Did not acheive an average score of 30:
 
